@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizzQuest</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <h1 class="main-title">
+                <span class="title-part">Quizz</span><span class="title-part highlight">Quest</span>
+            </h1>
+            <p class="subtitle">Test Your Technical Knowledge</p>
+        </div>
+        <div id="access-container">
+            <div id="username-section">
+                <input type="text" id="username" placeholder="Username">
+            </div>
+            <div id="quiz-code-section">
+                <input type="text" id="quiz-code" placeholder="Enter Quiz Code">
+                <button onclick="startQuiz()">Start Quiz</button>
+            </div>
+            <div id="highscore-section">
+                <a href="highscores.html" class="btn">View High Scores</a>
+            </div>
+        </div>
+        <div id="topic-selection" class="topic-box">
+            <h3>Choose Your Topic</h3>
+            <div class="topic-buttons">
+                <button class="topic-btn" onclick="setTopic('git')">
+                    <img src="images/git.svg" alt="Git" class="topic-icon">
+                    <span>Git</span>
+                </button>
+                <button class="topic-btn" onclick="setTopic('java')">
+                    <img src="images/java.svg" alt="Java" class="topic-icon">
+                    <span>Java</span>
+                </button>
+                <button class="topic-btn" onclick="setTopic('web')">
+                    <img src="images/web.svg" alt="Web Development" class="topic-icon">
+                    <span>Web Development</span>
+                </button>
+                <button class="topic-btn" onclick="setTopic('python')">
+                    <img src="images/python.svg" alt="Python" class="topic-icon">
+                    <span>Python</span>
+                </button>
+                <button class="topic-btn" onclick="setTopic('dsa')">
+                    <img src="images/dsa.svg" alt="DSA" class="topic-icon">
+                    <span>DSA</span>
+                </button>
+                <button class="topic-btn" onclick="setTopic('programming')">
+                    <img src="images/programming.svg" alt="Programming Basics" class="topic-icon">
+                    <span>Programming Basics</span>
+                </button>
+            </div>
+        </div>
+        <div id="quiz-section" style="display: none;">
+            <div id="progress-container">
+                <div id="progress-text">Question 1 of 18</div>
+                <div class="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+            </div>
+            <p id="question"></p>
+            <div id="choices"></div>
+            <p>Time Remaining: <span id="timer">10</span> seconds</p>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

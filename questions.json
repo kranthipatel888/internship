@@ -1,0 +1,242 @@
+[
+  {
+    "topic": "web",
+    "questions": [
+      {
+        "question": "Inside which HTML element do we put the JavaScript?",
+        "choices": ["<script>", "<javascript>", "<js>", "<scripting>"],
+        "answer": "<script>"
+      },
+      {
+        "question": "What is the correct syntax for referring to an external script?",
+        "choices": ["<script href='xxx.js'>", "<script name='xxx.js'>", "<script src='xxx.js'>", "<script file='xxx.js'>"],
+        "answer": "<script src='xxx.js'>"
+      },
+      {
+        "question": "How do you write 'Hello World' in an alert box?",
+        "choices": ["msgBox('Hello World');", "alertBox('Hello World');", "alert('Hello World');", "msg('Hello World');"],
+        "answer": "alert('Hello World');"
+      },
+      {
+        "question": "What is the correct way to write a JavaScript array?",
+        "choices": ["var colors = (1:'red', 2:'green', 3:'blue')", "var colors = ['red', 'green', 'blue']", "var colors = 'red', 'green', 'blue'", "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"],
+        "answer": "var colors = ['red', 'green', 'blue']"
+      },
+      {
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "choices": ["onclick", "onmouseclick", "onchange", "onmouseover"],
+        "answer": "onclick"
+      },
+      {
+        "question": "What does CSS stand for?",
+        "choices": ["Computer Style Sheets", "Creative Style Sheets", "Cascading Style Sheets", "Colorful Style Sheets"],
+        "answer": "Cascading Style Sheets"
+      },
+      {
+        "question": "Which method converts JSON to a JavaScript object?",
+        "choices": ["JSON.parse()", "JSON.stringify()", "JSON.toObject()", "JSON.convert()"],
+        "answer": "JSON.parse()"
+      },
+      {
+        "question": "What is the purpose of DOCTYPE in HTML?",
+        "choices": ["To define the document type", "To define the document title", "To define the document style", "To define the document language"],
+        "answer": "To define the document type"
+      },
+      {
+        "question": "What is the correct syntax for a for loop in JavaScript?",
+        "choices": ["for (i = 0; i <= 5)", "for (i <= 5; i++)", "for i = 1 to 5", "for (let i = 0; i < 5; i++)"],
+        "answer": "for (let i = 0; i < 5; i++)"
+      },
+      {
+        "question": "Which symbol is used for single-line comments in JavaScript?",
+        "choices": ["//", "#", "/*", "--"],
+        "answer": "//"
+      },
+      {
+        "question": "What is the purpose of the <head> section in an HTML document?",
+        "choices": ["To display content", "To include metadata", "To style the document", "To add comments"],
+        "answer": "To include metadata"
+      },
+      {
+        "question": "Which CSS property is used to change the text color of an element?",
+        "choices": ["color", "font-color", "text-color", "background-color"],
+        "answer": "color"
+      },
+      {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "choices": ["<link>", "<a>", "<href>", "<url>"],
+        "answer": "<a>"
+      },
+      {
+        "question": "What is the default positioning of an HTML element?",
+        "choices": ["static", "absolute", "relative", "fixed"],
+        "answer": "static"
+      },
+      {
+        "question": "Which attribute specifies an alternate text for an image in HTML?",
+        "choices": ["alt", "title", "src", "text"],
+        "answer": "alt"
+      }
+    ]
+  },
+  {
+    "topic": "python",
+    "questions": [
+      {
+        "question": "What is the correct way to write a Python function?",
+        "choices": ["function myFunction():", "def myFunction():", "create myFunction():", "func myFunction():"],
+        "answer": "def myFunction():"
+      },
+      {
+        "question": "Which operator is used for exponentiation in Python?",
+        "choices": ["^", "**", "^^", "pow"],
+        "answer": "**"
+      },
+      {
+        "question": "What is the output of type([]) in Python?",
+        "choices": ["list", "array", "tuple", "set"],
+        "answer": "list"
+      },
+      {
+        "question": "Which method is used to add an element at the end of a list in Python?",
+        "choices": ["append()", "add()", "extend()", "insert()"],
+        "answer": "append()"
+      },
+      {
+        "question": "What is the correct file extension for Python files?",
+        "choices": [".py", ".python", ".pt", ".pyt"],
+        "answer": ".py"
+      },
+      {
+        "question": "Which method can be used to remove whitespace from the beginning/end of a string?",
+        "choices": ["strip()", "trim()", "clean()", "remove()"],
+        "answer": "strip()"
+      },
+      {
+        "question": "What is the Python keyword for defining a class?",
+        "choices": ["class", "define", "struct", "object"],
+        "answer": "class"
+      },
+      {
+        "question": "Which of these is NOT a Python data type?",
+        "choices": ["int", "float", "char", "bool"],
+        "answer": "char"
+      },
+      {
+        "question": "What is the correct way to create a tuple in Python?",
+        "choices": ["(1, 2, 3)", "[1, 2, 3]", "{1, 2, 3}", "<1, 2, 3>"],
+        "answer": "(1, 2, 3)"
+      },
+      {
+        "question": "What does the len() function do in Python?",
+        "choices": ["Calculates the length of an object", "Adds elements to a list", "Removes elements from a list", "Concatenates strings"],
+        "answer": "Calculates the length of an object"
+      },
+      {
+        "question": "Which Python keyword is used to handle exceptions?",
+        "choices": ["handle", "try", "catch", "error"],
+        "answer": "try"
+      },
+      {
+        "question": "What is the output of 5 // 2 in Python?",
+        "choices": ["2.5", "2", "3", "Error"],
+        "answer": "2"
+      },
+      {
+        "question": "What is the purpose of the 'self' keyword in Python?",
+        "choices": ["To refer to the current class", "To refer to the current object", "To refer to the current module", "To refer to the parent class"],
+        "answer": "To refer to the current object"
+      },
+      {
+        "question": "Which method is used to sort a list in ascending order in Python?",
+        "choices": ["sort()", "order()", "arrange()", "sequence()"],
+        "answer": "sort()"
+      },
+      {
+        "question": "What is the difference between a list and a tuple in Python?",
+        "choices": ["Tuples are mutable; lists are not", "Lists are mutable; tuples are not", "Lists are faster than tuples", "Tuples consume more memory than lists"],
+        "answer": "Lists are mutable; tuples are not"
+      }
+    ]
+  },
+  {
+    "topic": "git",
+    "questions": [
+      {
+        "question": "What command is used to initialize a new Git repository?",
+        "choices": ["git start", "git init", "git begin", "git create"],
+        "answer": "git init"
+      },
+      {
+        "question": "How do you stage changes for commit in Git?",
+        "choices": ["git stage", "git commit", "git add", "git push"],
+        "answer": "git add"
+      },
+      {
+        "question": "What command shows the current status of your Git repository?",
+        "choices": ["git check", "git status", "git info", "git show"],
+        "answer": "git status"
+      },
+      {
+        "question": "How do you create a new branch in Git?",
+        "choices": ["git branch new", "git checkout -b new", "git new branch", "git create branch"],
+        "answer": "git checkout -b new"
+      },
+      {
+        "question": "Which command is used to download a repository from GitHub?",
+        "choices": ["git pull", "git fetch", "git clone", "git download"],
+        "answer": "git clone"
+      },
+      {
+        "question": "What command shows the commit history?",
+        "choices": ["git history", "git log", "git show", "git commits"],
+        "answer": "git log"
+      },
+      {
+        "question": "How do you merge a branch in Git?",
+        "choices": ["git combine branch", "git merge branch", "git integrate branch", "git join branch"],
+        "answer": "git merge branch"
+      },
+      {
+        "question": "How do you undo changes in a tracked file?",
+        "choices": ["git checkout", "git undo", "git reset file", "git revert file"],
+        "answer": "git checkout"
+      },
+      {
+        "question": "Which command shows the differences between two commits?",
+        "choices": ["git compare", "git log --diff", "git diff", "git changes"],
+        "answer": "git diff"
+      },
+      {
+        "question": "How do you unstage a file in Git?",
+        "choices": ["git reset HEAD <file>", "git checkout <file>", "git remove <file>", "git revert HEAD <file>"],
+        "answer": "git reset HEAD <file>"
+      },
+      {
+        "question": "How do you remove a file from the working directory and staging area?",
+        "choices": ["git rm", "git delete", "git remove", "git discard"],
+        "answer": "git rm"
+      },
+      {
+        "question": "What command can undo a commit?",
+        "choices": ["git revert", "git reset", "git undo", "git amend"],
+        "answer": "git reset"
+      },
+      {
+        "question": "How do you discard untracked changes?",
+        "choices": ["git clean", "git revert", "git reset HEAD", "git prune"],
+        "answer": "git clean"
+      },
+      {
+        "question": "What is the purpose of 'git stash'?",
+        "choices": ["To save and remove changes temporarily", "To delete files", "To commit staged changes", "To discard changes"],
+        "answer": "To save and remove changes temporarily"
+      },
+      {
+        "question": "What is the default branch in Git?",
+        "choices": ["default", "main", "master", "branch"],
+        "answer": "main"
+      }
+    ]
+  }
+]
